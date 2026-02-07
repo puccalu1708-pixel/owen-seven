@@ -25,9 +25,6 @@ const Hero: React.FC = () => {
           <a href="#awards" className="w-full sm:w-auto px-10 py-4 bg-cyan-600 hover:bg-cyan-500 text-white font-bold rounded-sm transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-cyan-900/20">
             查看成就里程碑
           </a>
-          <a href="#ask-ai" className="w-full sm:w-auto px-10 py-4 border border-slate-700 hover:border-cyan-500 text-slate-300 hover:text-cyan-400 font-bold rounded-sm transition-all">
-            與我的 AI 助手對話
-          </a>
         </div>
         
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto opacity-40 hover:opacity-100 transition-opacity">

@@ -12,6 +12,7 @@ export interface Skill {
   category: string;
 }
 
+// Added ChatMessage interface for AI chat components
 export interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;

@@ -1,11 +1,9 @@
-
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Awards from './components/Awards';
 import Skills from './components/Skills';
-import AIChat from './components/AIChat';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -33,7 +31,6 @@ const App: React.FC = () => {
         <About />
         <Awards />
         <Skills />
-        <AIChat />
       </main>
       <Footer />
       
